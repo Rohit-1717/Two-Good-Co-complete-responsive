@@ -145,6 +145,9 @@ nav{
     object-position: center;
 }
 
+#play{
+    z-index:1;
+}
 .video-container #play{
     background-color: black;
     padding: 3vw 2vw;
