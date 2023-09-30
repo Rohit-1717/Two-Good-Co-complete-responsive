@@ -81,8 +81,8 @@ video_cont.addEventListener("mouseleave",function(){
 
 video_cont.addEventListener("mousemove",function(dets){
   gsap.to(play_btn,{
-    left : dets.x-"80 px",
-    top : dets.y- ""
+    left : dets.x+"px",
+    top : dets.y+"px"
   })
 })
 
